@@ -1,0 +1,114 @@
+{
+  "format": "motiongit.discovery/1",
+  "repositoryId": "743702",
+  "templateId": 621,
+  "owner": "prism-studio",
+  "slug": "visual-art-g-gallery",
+  "website": "https://motiongit.com/@prism-studio/visual-art-g-gallery",
+  "checkedAt": "2026-10-13",
+  "availability": "download-available",
+  "title": {
+    "en": "Spatial Gallery · Photo Memories",
+    "zh": "空间画廊 · 回忆相册"
+  },
+  "summary": {
+    "en": "Travel through a dimensional photo gallery with captions, then move into the main image and a full-screen title.",
+    "zh": "穿行带有文字说明的立体照片画廊，最后推进主照片并揭示全屏标题，适合回忆与作品集。"
+  },
+  "subtitle": {
+    "en": "Spatial Gallery · Photo Memories",
+    "zh": "空间画廊 · 回忆相册"
+  },
+  "category": {
+    "en": "art",
+    "zh": "art"
+  },
+  "ratio": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "durationSeconds": 14,
+  "demo": {
+    "en": "https://media.openaicut.com/previews/621/draft-en-d730d56fb8f4.mp4",
+    "zh": "https://motiongit.com/@prism-studio/visual-art-g-gallery?lang=zh",
+    "poster": "https://motiongit.com/media/covers/621/draft-zh-78b8670e7b7d.jpg"
+  },
+  "materials": [
+    {
+      "en": "Photos: text entries, at least 12 items, at most 128 items.",
+      "zh": "Photos：文字内容，至少 12 项，最多 128 项。",
+      "required": true
+    },
+    {
+      "en": "Finale: content group.",
+      "zh": "Finale：内容组。",
+      "required": true
+    },
+    {
+      "en": "Title: text, up to 80 characters.",
+      "zh": "Title：文字，不超过 80 个字符。",
+      "required": true
+    },
+    {
+      "en": "Titleen: text, up to 80 characters.",
+      "zh": "Titleen：文字，不超过 80 个字符。",
+      "required": true
+    },
+    {
+      "en": "Captions: text entries, 6 items.",
+      "zh": "Captions：文字内容，6 项。",
+      "required": true
+    },
+    {
+      "en": "Bg: text, up to 7 characters.",
+      "zh": "Bg：文字，不超过 7 个字符。",
+      "required": true
+    },
+    {
+      "en": "Wall: text, up to 7 characters.",
+      "zh": "Wall：文字，不超过 7 个字符。",
+      "required": true
+    },
+    {
+      "en": "Light: text, up to 7 characters.",
+      "zh": "Light：文字，不超过 7 个字符。",
+      "required": true
+    }
+  ],
+  "dependencies": [
+    {
+      "en": "The package declares a Python and Node.js host. Check its dependency lock for supported versions and any additional rendering tools.",
+      "zh": "模板声明使用 Python 和 Node.js。具体工具与版本以下载包为准。"
+    },
+    {
+      "en": "Use the package dependency lock and setup/check instructions. Check existing tools first, install only missing requirements and verify a preview.",
+      "zh": "按下载包的依赖锁和 setup/check 说明检查已有工具，只补齐缺项，并验证预览。"
+    }
+  ],
+  "goodFor": {
+    "en": [
+      "Make the user's photos into the existing visual composition; retain every original effect and time cue."
+    ],
+    "zh": [
+      "Make the user's photos into the existing visual composition; retain every original effect and time cue."
+    ]
+  },
+  "boundaries": {
+    "en": [
+      "The documented output is 1920 × 1080, 60 fps; default demo duration is 14 seconds.",
+      "Use the actual package parameter bounds; extra materials do not automatically create extra scenes.",
+      "Arbitrary portrait output or scene rearrangement without a separately adapted design."
+    ],
+    "zh": [
+      "已声明输出为 1920 × 1080，60 fps；默认样片 14 秒。",
+      "按实际包的参数边界制作；增加素材不会自动增加场景。"
+    ]
+  },
+  "capabilities": [
+    {
+      "en": "Optional services require a live catalog, template slot and account check before they can be confirmed.",
+      "zh": "配套服务需核对官网实时能力、模板槽位和账号权限后才能确认。",
+      "status": "check-live"
+    }
+  ]
+}
